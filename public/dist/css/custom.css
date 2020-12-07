@@ -1,0 +1,74 @@
+.append_main { border: 1px solid #ccc; border-radius: 4px; padding: 10px 15px; }
+.append_main_tab .btn { display:block; width:100%; min-width:-webkit-fill-available; }
+.append_main_tab label { margin: 0; padding-top: 6px; }
+.append_main_tab { margin: 10px 0; }
+.autoresizenone { resize: none; }
+table .i-checks input:checked + i:before { left: 2px; top: 2px; width: 9px; height: 9px; }
+.bg-blue { color:#FFF; background: #4aa9e9 !important; }
+button.bg-blue{ border-color:#4aa9e9 !important; }
+.bg-green { color:#FFF; background: #03b303 !important; }
+button.bg-green{ border-color:#03b303 !important; }
+.bg-orange { color:#FFF; background: #ff5200 !important; }
+button.bg-orange{ border-color:#ff5200 !important; }
+.bg-purple { color:#FFF; background: #62549a !important; }
+button.bg-purple{ border-color:#62549a !important; }
+.bg-yellow { color:#FFF; background: #fbbc05 !important; }
+button.bg-yellow{ border-color:#fbbc05 !important; }
+.bg-red { color:#FFF; background: #e83636 !important; }
+button.bg-red{ border-color:#e83636 !important; }
+.bg-white { color:#000; background: #ffffff !important; }
+button.bg-white{ border-color:#ffffff !important; }
+.bg-pink { color:#FFF; background: pink !important; }
+button.bg-pink{ border-color:pink !important; }
+
+.bg-blue:hover , .bg-pink:hover , .bg-green:hover, .bg-orange:hover, .bg-purple:hover, .bg-red:hover, .bg-yellow:hover,
+.bg-blue:focus , .bg-pink:focus , .bg-green:focus, .bg-orange:focus, .bg-purple:focus, .bg-red:focus, .bg-yellow:focus,
+.bg-blue:active ,.bg-pink:active , .bg-green:active, .bg-orange:active, .bg-purple:active, .bg-red:active, .bg-yellow:active { color:#FFF !important; }
+
+.btn_inline { display: inline-block; font-size: 12px; padding: 6px 10px; }
+.btn_inline { padding: 2px 10px !important; }
+.buttons-print { background: #4aa9e9 !important; color: #FFF !important; border-color: #4aa9e9 !important; padding: 2px 10px !important; font-size: 12px; }
+.colvis-responsive-data-table th,.responsive-data-table th { white-space: nowrap; }
+.colvis-responsive-data-table tr > td,.responsive-data-table tr > td { white-space: nowrap; }
+.cursor-help { cursor: help; }
+.dataTables_wrapper .dataTables_info { padding-top: 10px !important; }
+.dt-buttons button { outline: none; background: #f3f3f3; border-color: #ddd; border: 1px solid #999; color: black; border-radius: 2px; height: 30px; padding: 3px 8px; }
+.dt-buttons { float: right; }
+.i-checks > i { width: 15px !important; height: 15px !important; margin-right: 10px !important; }
+.i-checks { margin:0; }
+.label { color: #626262; }
+.m-0{ margin: 0px !important; }
+.new_button a.btn.btn-info { padding: 5px 10px; font-size: 13px; display: inline-block; }
+.new_button { margin-top: -4px; }
+.panel-body { padding: 15px 5px; }
+.preview_tab .form-group label { font-size: 13px; font-weight: 600; }
+.preview_tab .form-group p { font-size: 13px; margin: 0; }
+.preview_tab .form-group { border-bottom: 1px solid #ededed; padding: 0; min-height: 67px; }
+.table { width: 100% !important; }
+.table-responsive { border:0 none; }
+.table-striped { margin-top: 15px !important; }
+button.ColVis_Button.ColVis_MasterButton { background: #4aa9e9 !important; color: #FFF !important; border-color: #4aa9e9 !important; }
+div.ColVis { margin: 0 10px; }
+div.ColVis { margin-bottom: 0px; }
+li.select2-selection__choice { color: white !important; background: #62549a!important; }
+span.select2-selection__choice__remove { color: white !important; }
+table.dataTable tbody td { word-break: break-word !important; vertical-align: top; }
+table.dataTable tbody td { word-break: break-word !important; vertical-align: top; }
+table.dataTable tbody th, table.dataTable tbody td { padding: 4px 7px; font-size: 13px; }
+table.dataTable thead th, table.dataTable tfoot th { font-weight: 600; font-size: 13px; }
+#kt_table_1 td{ vertical-align: middle !important; width: auto !important; }
+/*------------------------------------------------------- Responsive Devices --------------------------------------------------------------*/
+
+@media screen and (max-width: 786px) {
+    .dataTables_length label { display: block; font-size: 14px; font-weight: 500; text-transform: capitalize; }
+    .dataTables_length select { display: inline-block; width: 130px; margin:0 10px;  }
+    .dataTables_filter label { display: block; font-size: 14px; font-weight: 500; text-transform: capitalize;  }
+    .dataTables_wrapper .dataTables_filter input { margin: 0 10px; width: 174px; display: inline-block; }
+    .btn_inline_mobile { padding: 4px 8px; font-size: 14px; }
+    .tbl-head { float: right; margin: 0 0 10px 0; width: 100%; }
+    .tbl-head .ColVis { margin-bottom: 0px; width: 100%; float: left; }
+    .tbl-head .ColVis_Button.ColVis_MasterButton { width: 100%; }
+    ul.ColVis_collection { width: 248px; }
+    .tbl-pagin { float: left; width: 100%; }
+    .tbl-pagin .pagination { margin:0 0 10px 0;  }
+}
